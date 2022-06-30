@@ -121,7 +121,6 @@ img {
 	width: 60px;
     height: 60px;
     border-radius: 50%;
-
 }
 /* = Deco line | ! to hold width beyond breaks */
 .round-deco_container::after {
@@ -129,14 +128,13 @@ img {
     content: "";
     width: 140px;
     border-top: 1px solid #444546;
-    /* width: 90% !important; */
     margin-left: 200px;
     overflow: hidden;
-	
 }
 /* = Set display for hero title copy container = */
 .heading-copy_block {
 	display: block;
+	margin-top: 10px;
 }
 /* = h1 title copy | font added from comp = */
 .heading-copy {
