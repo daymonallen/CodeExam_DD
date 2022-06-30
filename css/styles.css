@@ -144,7 +144,6 @@ img {
 .benefits-feature{
 	position: relative;
 	max-width: 1400px;
-	/* margin-inline: auto; */
 	margin: auto;
 }
 .benefits-feature_align {
