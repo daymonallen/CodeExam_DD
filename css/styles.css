@@ -115,18 +115,24 @@ img {
 	color: #FFF;
 	font-weight: bold;
 	font-size: 2rem;
-	border-radius: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
 }
 /* = Deco line | ! to hold width beyond breaks */
 .round-deco_container::after {
-	position: absolute;
-	content: "";
-	width: 150px;
-	border-top: 1px solid #444546;
-	width: 90% !important;
+    position: absolute;
+    content: "";
+    width: 140px;
+    border-top: 1px solid #444546;
+    /* width: 90% !important; */
+    margin-left: 200px;
+    overflow: hidden;
+	
 }
 /* = Set display for hero title copy container = */
 .heading-copy_block {
@@ -144,6 +150,7 @@ img {
 .benefits-feature{
 	position: relative;
 	max-width: 1400px;
+	/* margin-inline: auto; */
 	margin: auto;
 }
 .benefits-feature_align {
@@ -443,7 +450,7 @@ img {
 	/* = Style and position hero image = */
 	.col-hero_left img {
 		min-width: 150px;
-		margin-left: -70px;
+		margin-left: -90px;
 	}
 	/* = Set right col width and padding = */
 	.col-hero_right {
